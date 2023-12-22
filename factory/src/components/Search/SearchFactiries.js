@@ -1,6 +1,6 @@
 import './searchFactories.css'
 
-function Search() {
+function SearchFactories() {
     return (
         <table className="wrap">
             <tr>
@@ -26,4 +26,4 @@ function Search() {
 
     )
 }
-export default Search;
+export default SearchFactories;
