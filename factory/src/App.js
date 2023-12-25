@@ -12,6 +12,8 @@ import { BusinessRequest } from './components/BusinessRequest';
 import { UserName } from './components/UserName';
 import { Factories1A } from './components/Search/Factories1A';
 import { Factories1B } from './components/Search/Factories1B';
+import { Factories2A } from './components/Search/Factories2A';
+import { FactoriesFavorite } from './components/Search/FactoriesFavorite';
 
 function App() {
   return (
@@ -24,12 +26,14 @@ function App() {
       <Route path='search' element={<SearchFactories />} />
       <Route path='orders' element={<Orders />} />
       <Route path='factories' element={<Factories />} />
-      <Route path='Agents' element={<Agents />} />
+      <Route path='agents' element={<Agents />} />
       <Route path='businessRequest' element={<BusinessRequest />} />
       <Route path='settings' element={<Settings />} />
       <Route path='help' element={<Help />} />
-      <Route path='Factories1A' element={<Factories1A />} />
-      <Route path='Factories1B' element={<Factories1B />} />
+      <Route path='factories1A' element={<Factories1A />} />
+      <Route path='factories1B' element={<Factories1B />} />
+      <Route path='factories2A' element={<Factories2A />} />
+      <Route path='favorite' element={<FactoriesFavorite />} />
 
      </Routes>
      
