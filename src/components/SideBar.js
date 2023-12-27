@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './sidebar.css';
 
 function SideBar() {
@@ -5,11 +6,12 @@ function SideBar() {
         <div className="sideBar">
             <ul>
                 <li>Username</li>
-                <li>Dashboard</li>
-                <li>Factories</li>
+                <li><Link to={"/"}>Dashboard</Link></li>
+                <li><Link to={"/search"}>Factories</Link></li>
+                <li><Link to={"/orders"}>Orders</Link></li>
+            
                 <li>Agents</li>
                 <li>Business requests</li>
-                <li>Orders</li>
                 <li>Settings</li>
                 <li> Help</li>
             </ul>
