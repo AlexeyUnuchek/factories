@@ -6,6 +6,7 @@
     display: grid;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 
 }
 
@@ -14,7 +15,6 @@
     border-radius: 12px;
     height: 48px;
     width: 524px;
-    margin-left: 70px;
     justify-content: center;
     align-items: first baseline;
 

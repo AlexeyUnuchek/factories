@@ -7,3 +7,27 @@ li {
     margin-bottom: 1rem;
     
 }
+
+.nav-link {
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.nav-subItem {
+    margin-left: 1rem;
+
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: lightgrey;
+
+}
+
+.active-nav {
+    color: yellow;
+}
