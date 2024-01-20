@@ -14,6 +14,8 @@ import { Factories1A } from './components/Search/Factories1A';
 import { Factories1B } from './components/Search/Factories1B';
 import { Factories2A } from './components/Search/Factories2A';
 import { FactoriesFavorite } from './components/Search/FactoriesFavorite';
+import { SearchAgents } from './components/Search/SearchAgents';
+import { FavoriteAgents } from './components/Search/FavoriteAgents';
 
 function App() {
   return (
@@ -34,6 +36,9 @@ function App() {
       <Route path='factories1B' element={<Factories1B />} />
       <Route path='factories2A' element={<Factories2A />} />
       <Route path='favorite' element={<FactoriesFavorite />} />
+      <Route path='searchAgents' element={<SearchAgents />} />
+      <Route path='favoriteAgents' element={<FavoriteAgents />} />
+
 
      </Routes>
      

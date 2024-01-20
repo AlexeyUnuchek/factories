@@ -11,13 +11,12 @@
 }
 
 .search1 {
+    margin: 20px;
     border: 1px solid rgba(51, 59, 78, 1);
     border-radius: 12px;
     height: 48px;
     width: 524px;
-    justify-content: center;
-    align-items: first baseline;
-
+   
 }
 
 .row1 {
