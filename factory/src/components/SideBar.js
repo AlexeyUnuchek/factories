@@ -22,8 +22,8 @@ function SideBar() {
                 <div className='nav-link' onClick={() => setShowAgentsItems(!showAgentsItems)}><Link to='agents'>Agents</Link></div>
                 {showAgentsItems &&
                     <div>
-                        <div className='nav-subItem'><Link to='searchAgents'></Link>SearchAgents</div>
-                        <div className='nav-subItem'><Link to='favoriteAgents'></Link>FavoriteAgents</div>
+                        <div className='nav-subItem'><Link to='searchAgents'>SearchAgents</Link></div>
+                        <div className='nav-subItem'><Link to='favoriteAgents'>FavoriteAgents</Link></div>
 
                     </div>
                 }

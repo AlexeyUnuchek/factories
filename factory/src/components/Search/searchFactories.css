@@ -106,7 +106,7 @@
     height: 547px;
     width: 500px;
     grid-area: partners;
-    background: linear-gradient(0deg, #FEFCFC, #FEFCFC),
+    background: linear-gradient(0deg, #FEFCFC, #111111),
         linear-gradient(0deg, #FFC228, #FFC228);
     border: 2px solid #FFC228;
     border-radius: 12px;
