@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './searchFavorite.css'
 
 export const FactoriesFavorite = () => {
-    const factories = [
-        { name: "Tnuva" }, { name: "Danon" }, { name: "Nestle" },{},{},
-        {},{},{},{},{},{},{},{},{},{},
-    ]
+    const [factories, setFactories] = useState([{name: "Test"}]);
+
+
+    useEffect(() => {
+        // const result = getFactories();
+        // console.log("useEffect", result);
+        // setFactories(result)
+        getFactories().then(resp => setFactories(resp))
+    }, [])
+
+    const getFactories = async () => {
+         const resp = await fetch("http://localHost:8080/factory");
+         const json = await resp.json();
+         
+         console.log("getFactories",  json);
+
+         return ([{name: "Test1"}])
+        // return  resp;
+    }
 
     return (
         <div className='favorite-conteiner'>
