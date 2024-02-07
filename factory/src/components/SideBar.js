@@ -6,6 +6,7 @@ import { useState } from 'react';
 function SideBar() {
     const [showfactoriesItems, setShowfactoriesItems] = useState(false);
     const [showAgentsItems, setShowAgentsItems] = useState(false);
+    
     return (
         <div className="sideBar">
             <div>

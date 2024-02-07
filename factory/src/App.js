@@ -16,6 +16,7 @@ import { Factories2A } from './components/Search/Factories2A';
 import { FactoriesFavorite } from './components/Search/FactoriesFavorite';
 import { SearchAgents } from './components/Search/SearchAgents';
 import { FavoriteAgents } from './components/Search/FavoriteAgents';
+import Factory from './components/Search/Factory';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
       <Route path='favorite' element={<FactoriesFavorite />} />
       <Route path='searchAgents' element={<SearchAgents />} />
       <Route path='favoriteAgents' element={<FavoriteAgents />} />
+      <Route path='factory' element={<Factory name="test" />} />
+      <Route path='factory/id' element={<Factory name="superFarm" />} />
+
 
 
      </Routes>
