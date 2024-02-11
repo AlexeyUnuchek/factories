@@ -29,11 +29,12 @@ function App() {
       <Route path='search' element={<SearchFactories />} />
       <Route path='orders' element={<Orders />} />
       <Route path='factories' element={<Factories />} />
+      <Route path="factories/:factories1A" element={<Factories1A />} />
       <Route path='agents' element={<Agents />} />
       <Route path='businessRequest' element={<BusinessRequest />} />
       <Route path='settings' element={<Settings />} />
       <Route path='help' element={<Help />} />
-      <Route path='factories1A' element={<Factories1A />} />
+      {/* <Route path='factories1A' element={<Factories1A />} /> */}
       <Route path='factories1B' element={<Factories1B />} />
       <Route path='factories2A' element={<Factories2A />} />
       <Route path='favorite' element={<FactoriesFavorite />} />

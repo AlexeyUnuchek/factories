@@ -1,7 +1,10 @@
 import './SearchFactiries'
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 export const Factories1A = () => {
+    const {} = useParams();
+    console.log(useParams);
     return (
         <div className='conteiner'> 
             <p className='search'>Search by company, product or key words</p>
